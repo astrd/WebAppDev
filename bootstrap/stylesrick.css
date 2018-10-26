@@ -1,0 +1,32 @@
+ html {
+     font-size: 100%;
+
+ }
+
+ body {
+     background: pink;
+     color: white;
+ }
+
+ aside {
+     padding: .5em 1em;
+     margin: 1em;
+     float: right;
+
+ }
+
+ header {
+     background: gray;
+ }
+
+ nav ul {
+     list-style-type: none;
+     margin: 0em;
+     padding: 0em;
+
+ }
+
+ li a {
+     color: antiquewhite;
+     text-decoration: none;
+ }
