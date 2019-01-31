@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello, JS!</title>
+  <style>
+    .color {
+      color: green;
+    }
+  </style>
+  <script src="hellojs.js" defer></script>
+</head>
+<body>
+  <h1 id="hdr">Hello, JS!</h1>
+<!--  <button onclick="alert('Tee-hee-hee');">Click me!</button>-->
+<!--  <button onclick="clicked();">Click me!</button>-->
+  <button id="clickBut">Click me!</button>
+  
+<!--
+  <script>
+//    function clicked() {
+//      alert('That tickles');
+//    }
+    
+    const clickBut = document.getElementById('clickBut');
+//    console.log(clickBut);
+//    clickBut.onclick = clicked;
+    // NO!!!!
+//    clickBut.onclick = alert('Hello ...');
+    
+//    clickBut.onclick = function() {
+//      alert('Hello from an anonymous function');
+//    };
+//    clickBut.onclick = () => {
+//      alert('Hello from an anonymous function');
+//    };
+    clickBut.addEventListener("click", () =>{
+      alert('EventListener ex');
+    });
+    //    document.getElementById('clickBut').onclick = clicked;
+    
+    clickBut.addEventListener("click", ()=>{
+      document.getElementById('hdr').classList.add("color");
+    });
+  </script>
+-->
+</body>
+</html>
